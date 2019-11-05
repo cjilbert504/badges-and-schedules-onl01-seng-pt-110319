@@ -21,5 +21,5 @@ name_array.each do |name|
 end
 
 def printer
-  puts badge_messages
+  puts room_list
 end
