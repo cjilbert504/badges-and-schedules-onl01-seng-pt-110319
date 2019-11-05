@@ -4,5 +4,7 @@ end
 
 def batch_badge_creator(array)
   badge_messages = []
-  return badge_messages
+  array.each do |name|
+    badge_messages << badge_maker
+  end
 end
