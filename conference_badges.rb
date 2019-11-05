@@ -19,3 +19,8 @@ name_array.each do |name|
  end
  room_list
 end
+
+def printer
+  puts batch_badge_creator
+  puts assign_rooms
+end
