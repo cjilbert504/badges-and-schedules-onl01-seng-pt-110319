@@ -21,5 +21,5 @@ name_array.each do |name|
 end
 
 def printer
-  puts batch_badge_creator
+  puts badge_messages
 end
