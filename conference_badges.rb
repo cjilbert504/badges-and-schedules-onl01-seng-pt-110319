@@ -20,9 +20,5 @@ name_array.each do |name|
  room_list
 end
 
-def printer(room_list)
-  puts badge_messages
-  room_list.each do |room|
-    puts "#{room}"
-  end
-end
+def printer
+  puts batch_badge_creator
