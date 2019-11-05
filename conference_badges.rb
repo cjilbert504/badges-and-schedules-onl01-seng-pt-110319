@@ -2,5 +2,7 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
-def batch_badge_creator
+def batch_badge_creator(array)
+  badge_messages = []
+  return badge_messages
 end
