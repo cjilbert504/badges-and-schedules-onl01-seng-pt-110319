@@ -21,7 +21,7 @@ name_array.each do |name|
 end
 
 def printer(attendees)
-  room_list.each do |room|
-    puts room
+  assign_rooms.each do |room|
+    puts "#{room}"
   end
 end
