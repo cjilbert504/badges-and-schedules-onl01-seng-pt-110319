@@ -20,7 +20,7 @@ name_array.each do |name|
  room_list
 end
 
-def printer
+def printer(attendees)
   room_list.each do |room|
     puts room
   end
