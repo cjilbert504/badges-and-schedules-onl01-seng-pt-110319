@@ -21,7 +21,7 @@ name_array.each do |name|
 end
 
 def printer
-  batch_badge_creator.each do |array|
-    puts array
+  room_list.each do |room|
+    puts room
   end
 end
